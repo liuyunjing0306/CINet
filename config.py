@@ -1,0 +1,26 @@
+config = {
+    'exp_name': 'CINet',
+    'epoch': 200,
+    'lr': 0.01,
+    'batch': 64,
+    'test_only': False,
+    'resume': '',
+    'train_dataset_mask_image': r'D:\LYJ_Project\Project_Differ_Mask\Mask_0.4\ProductImage\original_data\train_mask',
+    'test_dataset': 'D:/LYJ_Project/Project_Differ_Mask/Mask_0.4/lmdb_test1/test_1126',
+    'imageH': 128,
+    'imageW': 128,
+    'alpha_path': 'D:/LYJ_Project/Project_Differ_Mask/Mask_0.4/data/char_3755.txt',
+    'radical_path': 'D:/LYJ_Project/Project_Differ_Mask/Mask_0.4/data/radical_alphabet_27533_benchmark.txt',
+    'decompose_path': 'D:/LYJ_Project/Project_Differ_Mask/Mask_0.4/data/decompose_27533_benchmark.txt',
+    'radical_model': 'D:/LYJ_Project/Project_Differ_Mask/Mask_0.4/Pre-trained/model_200.pt',
+    'stn': False,
+    'constrain': False,
+    # 'char_len': 60,
+    'train_clean_path': r'D:\LYJ_Project\Project_Differ_Mask\Mask_0.4\ProductImage\original_data\train_data',
+    'test_clean_path': r'D:\LYJ_Project\Project_Differ_Mask\Mask_0.4\ProductImage\original_data\test1',
+    'save_model_dir': 'D:/LYJ_Project/Project_Differ_Mask/Mask_0.4/save_model',
+    'exp_name_recog': 'RecogNet',
+    'exp_name_inpaint': 'InpaintNet',
+    'exp_name_dis_style': 'StyleNet'
+
+}
